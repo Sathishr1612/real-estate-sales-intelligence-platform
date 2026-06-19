@@ -206,7 +206,7 @@ h6 {
       rgba(15, 23, 42, 0.48) 40%,
       rgba(15, 23, 42, 0.18) 75%,
       transparent 100%),
-    url('/assets/images/hero_bg.jpg') center center / cover no-repeat;
+    url('./images/hero_bg.jpg') center center / cover no-repeat;
   z-index: 0;
 }
 
@@ -1045,8 +1045,19 @@ h6 {
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at center, rgba(15, 23, 42, 0.8) 0%, rgba(7, 19, 43, 0.98) 100%);
-  opacity: 0.9;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(7, 19, 43, 0.75),
+      rgba(15, 23, 42, 0.55)
+    ),
+    url('../assets/images/cta.jpg') center center / cover no-repeat;
+  z-index: 0;
+}
+
+.final-cta .container {
+  position: relative;
+  z-index: 1;
 }
 
 .final-cta .content {
@@ -1576,15 +1587,15 @@ h6 {
 
 /* Industry applications */
 .usecase-bg-residential {
-  background-image: url('/assets/images/residential.webp');
+  background-image: url('./images/residential.webp');
 }
 
 .usecase-bg-luxury {
-  background-image: url('/assets/images/luxury.webp');
+  background-image: url('./images/luxury.webp');
 }
 
 .usecase-bg-commercial {
-  background-image: url('/assets/images/commercial-real-estate.jpg');
+  background-image: url('./images/commercial-real-estate.jpg');
 }
 
 /* Video components & proof testimonials */
@@ -1595,7 +1606,7 @@ h6 {
   aspect-ratio: 16 / 9;
   background: linear-gradient(rgba(10, 24, 56, 0.15),
       rgba(20, 40, 90, 0.25)),
-    url('/assets/videos/vanya.png');
+    url('./videos/vanya.png');
   background-size: cover;
   background-position: center;
   border-radius: 18px;
