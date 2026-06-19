@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plumb5 — Real Estate Sales Intelligence Platform</title>
+  <!-- Bootstrap CSS for layout/grid structure -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <!-- FontAwesome 6 for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <!-- Typography Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <!-- Link to CSS stylesheet -->
+  <link href="/assets/style.css" rel="stylesheet">
+  <style>
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateX(30px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ╔══════════════════════════════════════╗ -->
+  <!--   SECTION 1 — HERO HEADER & CONTROLS  -->
+  <!-- ╚══════════════════════════════════════╝ -->
+  <header class="hero-header">
+    <div class="container">
+      <div class="header-wrap">
+        <!-- Logo -->
+        <a href="#" class="logo logo-link">
+          <img src="assets/images/logo.png" alt="Company Logo">
+        </a>
+        <!-- CTA -->
+        <a href="#lead-form" class="header-btn">
+          Book Consultation
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+
+    <div class="container relative-z-2">
+      <div class="row align-items-center g-5">
+
+        <!-- Left Content -->
+        <div class="col-xl-6 col-lg-7 hero-content">
+          <h1 class="fade-up visible delay-100">
+            Convert More Property
+            Enquiries Into <em>Site Visits</em> &amp; Sales
+          </h1>
+
+          <p class="hero-sub fade-up visible delay-200">
+            Track buyer intent, automate follow-ups, and improve property sales conversions using intelligent real
+            estate marketing automation.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#lead-form" class="btn-gold">
+              <i class="fas fa-calendar-check me-2"></i>
+              Book My Real Estate Growth Consultation
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Float Cards -->
+        <div class="col-xl-6 col-lg-5 hero-float">
+          <!-- Dashboard Card -->
+          <div class="glass-card metric-box animate-slide-in-1">
+            <div class="card-label"><i class="fa-solid fa-chart-line me-1"></i> Lead Pipeline Today</div>
+            <div class="metric-row">
+              <div class="metric-val mb-val">284</div>
+              <div class="metric-delta">↑ 34% vs last week</div>
+            </div>
+            <div class="info-label-sm">New enquiries captured</div>
+            <div class="progress-bar-custom">
+              <div class="progress-fill progress-fill-68"></div>
+            </div>
+            <div class="flex-row-gap8 mt-2 justify-content-between">
+              <span class="text-caption-sm">68% qualify score</span>
+              <span class="text-caption-gold">192 hot leads</span>
+            </div>
+          </div>
+
+          <!-- Score Card -->
+          <div class="glass-card animate-slide-in-2">
+            <div class="card-label"><i class="fa-solid fa-brain me-1"></i> AI Intent Score</div>
+            <div class="flex-row-gap8">
+              <div class="flex-item">
+                <div class="info-label-sm-mb6">Rahul Mehra · 3BHK Enquiry</div>
+                <div class="flex-bar-grid">
+                  <div class="score-bar-gold"></div>
+                  <div class="score-bar-gold"></div>
+                  <div class="score-bar-gold"></div>
+                  <div class="score-bar-gold"></div>
+                  <div class="score-bar-gold-dim"></div>
+                </div>
+                <div class="text-caption-sm-mt5">High intent — site visit recommended</div>
+              </div>
+              <div class="score-text-serif">88</div>
+            </div>
+          </div>
+
+          <!-- WhatsApp Card -->
+          <div class="wa-card animate-slide-in-3">
+            <div class="wa-icon"><i class="fa-brands fa-whatsapp"></i></div>
+            <div class="wa-text">
+              <div class="wa-label">WhatsApp Automation Sent</div>
+              <div class="wa-val">147 follow-ups · 92% delivered</div>
+            </div>
+            <div class="indicator-pulse-green">●</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════════════╗ -->
+  <!--   SECTION 2 — INFINITE LOGO SCROLLER   -->
+  <!-- ╚══════════════════════════════════════╝ -->
+  <section class="client-logo-section">
+    <div class="logo-slider">
+      <div class="logo-track">
+
+        <div class="logo-card">
+          <img src="assets/lp-cust/brigade.jpg" alt="Brigade Logos">
+        </div>
+        <div class="logo-card">
+          <img src="assets/lp-cust/godrej.jpg" alt="Godrej Properties">
+        </div>
+        <div class="logo-card">
+          <img src="assets/lp-cust/sattva.png" alt="Sattva Group">
+        </div>
+        <div class="logo-card">
+          <img src="assets/lp-cust/marutham.jpg" alt="Marutham Group">
+        </div>
+        <div class="logo-card">
+          <img src="/assets/lp-cust/assetz.jpg" alt="Assetz Group">
+        </div>
+        <div class="logo-card">
+          <img src="/assets/lp-cust/sobha.jpg" alt="Sobha Limited">
+        </div>
+        <div class="logo-card">
+          <img src="/assets/lp-cust/merlin-group.jpg" alt="Merlin Group">
+        </div>
+        <div class="logo-card">
+          <img src="/assets/lp-cust/primus.jpg" alt="Primus">
+        </div>
+
+        <div class="logo-card">
+          <img src="/assets/lp-cust/diamond-developers.jpg" alt="Diamond Developers">
+        </div>
+
+        <!-- Duplicated Set for Seamless Infinite Scroll Continuation -->
+        <div class="logo-card">
+          <img src="assets/lp-cust/brigade.jpg" alt="Brigade Logos">
+        </div>
+        <div class="logo-card">
+          <img src="assets/lp-cust/godrej.jpg" alt="Godrej Properties">
+        </div>
+        <div class="logo-card">
+          <img src="assets/lp-cust/sattva.png" alt="Sattva Group">
+        </div>
+        <div class="logo-card">
+          <img src="assets/lp-cust/marutham.jpg" alt="Marutham Group">
+        </div>
+        <div class="logo-card">
+          <img src="/assets/lp-cust/assetz.jpg" alt="Assetz Group">
+        </div>
+        <div class="logo-card">
+          <img src="/assets/lp-cust/sobha.jpg" alt="Sobha Limited">
+        </div>
+        <div class="logo-card">
+          <img src="/assets/lp-cust/merlin-group.jpg" alt="Merlin Group">
+        </div>
+        <div class="logo-card">
+          <img src="/assets/lp-cust/primus.jpg" alt="Primus">
+        </div>
+        <div class="logo-card">
+          <img src="/assets/lp-cust/diamond-developers.jpg" alt="Diamond Developers">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════════════╗ -->
+  <!--   SECTION 3 — WHY LEADS FAIL            -->
+  <!-- ╚══════════════════════════════════════╝ -->
+  <section class="why-section">
+    <div class="container">
+      <div class="text-center mb-5 pb-3 fade-up">
+        <div class="section-label">The Problem</div>
+        <h2 class="section-title mb-3">Why Real Estate Leads<br>Fail To Convert</h2>
+        <div class="gold-divider mx-auto"></div>
+        <p class="section-sub">Most developers lose up to 70% of valuable enquiries due to slow, uncoordinated
+          follow-up. Plumb5 fixes that.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6 fade-up">
+          <div class="fail-card">
+            <div class="fail-icon"><i class="fa-solid fa-clock"></i></div>
+            <h5>Site Visit Follow-ups Happen Too Late</h5>
+            <p>Delays of even a few hours dramatically reduce the chance a buyer will schedule a visit.
+              Speed-to-follow-up is a critical conversion factor.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 fade-up delay-80">
+          <div class="fail-card">
+            <div class="fail-icon"><i class="fa-solid fa-temperature-low"></i></div>
+            <h5>Property Enquiries Go Cold Quickly</h5>
+            <p>Property buyers research multiple projects simultaneously. Without intelligent nurturing, hot enquiries
+              go cold within 24–48 hours.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 fade-up delay-160">
+          <div class="fail-card">
+            <div class="fail-icon"><i class="fa-solid fa-users-slash"></i></div>
+            <h5>Sales Teams Can't Prioritise Serious Buyers</h5>
+            <p>Without lead scoring, sales reps spend equal time on every enquiry — losing high-intent buyers while
+              chasing cold contacts.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 fade-up delay-240">
+          <div class="fail-card">
+            <div class="fail-icon"><i class="fa-solid fa-bullseye"></i></div>
+            <h5>Campaigns Generate Volume, Not Quality</h5>
+            <p>High ad spend doesn't guarantee qualified leads. Without attribution intelligence, budgets keep flowing
+              to channels that don't convert.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 fade-up delay-320">
+          <div class="fail-card">
+            <div class="fail-icon"><i class="fa-solid fa-route"></i></div>
+            <h5>Buyer Journeys Are Not Tracked Effectively</h5>
+            <p>Multi-touch buyer journeys span weeks. Without end-to-end tracking, teams are blind to where buyers drop
+              off and why.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 fade-up delay-400">
+          <div class="fail-card fail-card-dark">
+            <div class="fail-icon"><i class="fa-solid fa-lightbulb"></i></div>
+            <h5>One Platform. Every Real Estate Journey.</h5>
+            <p>Capture every enquiry, identify serious buyers, automate follow-ups, track buyer journeys, and improve
+              conversions—all from a single intelligent platform.</p>
+            <a href="#lead-form" class="btn-gold btn-gold-small mt-3 d-inline-block">See How →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════════════╗ -->
+  <!--   SECTION 4 — IMPROVE CONVERSIONS       -->
+  <!-- ╚══════════════════════════════════════╝ -->
+  <section class="features-section">
+    <div class="container">
+      <div class="text-center mb-5 fade-up">
+        <div class="section-label">The Solution</div>
+        <h2 class="section-title mb-3">Improve Real Estate<br>Sales Conversions</h2>
+        <div class="gold-divider mx-auto"></div>
+        <p class="section-sub">Intelligent automation across every stage of the property buyer journey.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6 fade-up">
+          <div class="feature-card">
+            <div class="feat-icon gold"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+            <h5>Identify Serious Property Buyers</h5>
+            <p>Plumb5's AI engine analyses browsing behaviour, project page visits, price range filters, and query
+              patterns to surface buyers with the highest purchase intent.</p>
+            <div class="mt-3">
+              <span class="feature-pill"><i class="fa-solid fa-star"></i> Intent Scoring</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 fade-up delay-80">
+          <div class="feature-card">
+            <div class="feat-icon purple"><i class="fa-solid fa-robot"></i></div>
+            <h5>Automate Lead Nurturing</h5>
+            <p>Deploy personalised WhatsApp sequences, email drips, and SMS campaigns triggered by buyer behaviour —
+              keeping your project top-of-mind at every decision point.</p>
+            <div class="mt-3">
+              <span class="feature-pill"><i class="fa-brands fa-whatsapp"></i> WhatsApp Flows</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 fade-up delay-160">
+          <div class="feature-card">
+            <div class="feat-icon gold"><i class="fa-solid fa-location-dot"></i></div>
+            <h5>Increase Site Visit Conversions</h5>
+            <p>Smart scheduling nudges and personalised invites are triggered at optimal buyer engagement moments —
+              driving more booked site visits from the same enquiry pool.</p>
+            <div class="mt-3">
+              <span class="feature-pill"><i class="fa-solid fa-calendar"></i> Visit Scheduler</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 fade-up delay-240">
+          <div class="feature-card">
+            <div class="feat-icon navy"><i class="fa-solid fa-chart-pie"></i></div>
+            <h5>Improve Project Marketing ROI</h5>
+            <p>Full-funnel campaign attribution shows which channels, creatives, and keywords are driving actual
+              bookings — not just form fills — so every rupee works harder.</p>
+            <div class="mt-3">
+              <span class="feature-pill"><i class="fa-solid fa-chart-bar"></i> Attribution</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 fade-up delay-320">
+          <div class="feature-card">
+            <div class="feat-icon purple"><i class="fa-solid fa-shield-halved"></i></div>
+            <h5>Reduce Lead Leakage</h5>
+            <p>Automated re-engagement campaigns, pipeline alerts, and escalation triggers ensure no enquiry falls
+              through the cracks across your entire sales team.</p>
+            <div class="mt-3">
+              <span class="feature-pill"><i class="fa-solid fa-bell"></i> Smart Alerts</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 fade-up delay-400">
+          <div class="feature-card feature-card-dashed">
+            <div class="feat-icon gold"><i class="fa-solid fa-arrows-to-circle"></i></div>
+            <h5>End-to-End Buyer Journey Visibility</h5>
+            <p>From first ad click to token payment — track every touchpoint across channels, projects, and sales reps
+              in a single unified dashboard.</p>
+            <div class="mt-3">
+              <span class="feature-pill"><i class="fa-solid fa-eye"></i> Full Funnel View</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════════════╗ -->
+  <!--   SECTION 5 — DASHBOARD DEMO            -->
+  <!-- ╚══════════════════════════════════════╝ -->
+  <section class="dashboard-section">
+    <div class="container relative-z-1">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5 fade-up">
+          <div class="section-label">The Platform</div>
+          <h2 class="section-title light mb-3">Built for High-Volume<br>Real Estate Lead<br>Management</h2>
+          <div class="gold-divider"></div>
+          <p class="p-light-muted-sm">
+            Plumb5 helps real estate businesses unify lead capture, customer engagement, campaign tracking, automation,
+            and sales workflows in one platform.
+          </p>
+          <a href="#lead-form" class="btn-gold">Start Your Free Consultation</a>
+        </div>
+
+        <div class="col-lg-7 fade-up delay-100">
+          <div class="dashboard-mockup">
+            <div class="mockup-topbar">
+              <div class="mockup-dots">
+                <span class="dot-red"></span>
+                <span class="dot-yellow"></span>
+                <span class="dot-green"></span>
+              </div>
+              <div class="mockup-title">Plumb5 CRM — Lead Management Dashboard</div>
+            </div>
+            <!-- DASHBOARD GRAPHIC GRID fallback -->
+            <div class="dashboard-frame db-frame-main">
+              <div class="db-header">
+                <span class="db-header-title"><i class="fa-solid fa-signal text-gold"></i> REAL-TIME INBOUND CONVERSION
+                  MATRIX</span>
+                <span class="db-header-status"><span class="db-header-indicator"></span> DATA STREAMS INGESTED</span>
+              </div>
+
+              <!-- Simulated charts framework -->
+              <div class="db-grid">
+                <div class="db-item">
+                  <div>
+                    <div class="db-item-lbl">Active Web Campaigns</div>
+                    <div class="db-item-val">Direct Facebook Inbound Ads</div>
+                  </div>
+                  <span class="db-item-metric">412 Inbound Conversions</span>
+                </div>
+                <div class="db-item">
+                  <div>
+                    <div class="db-item-lbl">Social / SMS Nurturing Networks</div>
+                    <div class="db-item-val">Automated WhatsApp Drips Triggered</div>
+                  </div>
+                  <span class="db-item-metric-alt">92% Delivery Ratio</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature Cards Grid -->
+      <div class="row g-3 mt-4">
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="db-feature-card">
+            <div class="db-feat-icon bg-gold-dim"><i class="fa-solid fa-magnet text-gold"></i></div>
+            <h6>Lead Capture</h6>
+            <p>All sources unified</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 delay-60">
+          <div class="db-feature-card">
+            <div class="db-feat-icon bg-purple-dim"><i class="fa-solid fa-brain text-purple-light"></i></div>
+            <h6>AI Lead Scoring</h6>
+            <p>Intent-based ranking</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 delay-120">
+          <div class="db-feature-card">
+            <div class="db-feat-icon bg-green-dim"><i class="fa-brands fa-whatsapp text-green"></i></div>
+            <h6>WhatsApp Auto</h6>
+            <p>Smart follow-ups</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 delay-180">
+          <div class="db-feature-card">
+            <div class="db-feat-icon bg-gold-dim"><i class="fa-solid fa-chart-pie text-gold"></i></div>
+            <h6>Campaign Tracking</h6>
+            <p>Full attribution</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 delay-240">
+          <div class="db-feature-card">
+            <div class="db-feat-icon bg-purple-dim"><i class="fa-solid fa-filter text-purple-light"></i></div>
+            <h6>Sales Pipeline</h6>
+            <p>Visual deal flow</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 delay-300">
+          <div class="db-feature-card">
+            <div class="db-feat-icon bg-gold-dim"><i class="fa-solid fa-gauge-high text-gold"></i></div>
+            <h6>Analytics</h6>
+            <p>Real-time insights</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════════════╗ -->
+  <!--   SECTION 6 — INDUSTRY APPLICATIONS     -->
+  <!-- ╚══════════════════════════════════════╝ -->
+  <section class="usecases-section">
+    <div class="container">
+      <div class="text-center mb-5 fade-up">
+        <div class="section-label">Industry Applications</div>
+        <h2 class="section-title mb-3">Built for Every Segment<br>of Real Estate</h2>
+        <div class="gold-divider mx-auto"></div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6 fade-up">
+          <div class="usecase-card">
+            <div class="usecase-bg usecase-bg-residential"></div>
+            <div class="usecase-overlay"></div>
+            <div class="usecase-content">
+              <div class="usecase-tag">Residential</div>
+              <h4>Residential Projects</h4>
+              <p>Improve enquiry-to-site-visit conversions with intelligent follow-up automation across apartments,
+                villas, and plotted development projects.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 fade-up delay-100">
+          <div class="usecase-card">
+            <div class="usecase-bg usecase-bg-luxury"></div>
+            <div class="usecase-overlay"></div>
+            <div class="usecase-content">
+              <div class="usecase-tag">Luxury</div>
+              <h4>Luxury Real Estate</h4>
+              <p>Track high-intent buyer engagement across premium projects. Identify UHNWI prospects and engage them
+                through white-glove automated journeys.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 fade-up delay-200">
+          <div class="usecase-card">
+            <div class="usecase-bg usecase-bg-commercial"></div>
+            <div class="usecase-overlay"></div>
+            <div class="usecase-content">
+              <div class="usecase-tag">Commercial</div>
+              <h4>Commercial Real Estate</h4>
+              <p>Manage long, complex sales cycles for office spaces, retail, and industrial assets with pipeline
+                visibility and multi-stakeholder nurturing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════════════╗ -->
+  <!--   SECTION 7 — VIDEO PANEL & PROOF       -->
+  <!-- ╚══════════════════════════════════════╝ -->
+  <section class="proof-section" id="proof-panel-anchor">
+    <div class="container">
+      <div class="text-center mb-5 fade-up">
+        <div class="section-label">Trusted By</div>
+        <h2 class="section-title mb-3">Real Results for Real<br>Estate Leaders</h2>
+        <div class="gold-divider mx-auto"></div>
+      </div>
+
+      <!-- Video elements with high fidelity background thumb -->
+      <div class="video-section">
+        <div class="container">
+          <div class="reveal flex-center">
+            <div class="video-thumb-wrap" id="videoThumb">
+              <!-- Real photorealistic background thumbnail image overlayed with beautiful semi-transparent elements -->
+              <div class="thumb-fallback video-thumb-container">
+                <!-- <span class="video-thumb-title">PLUMB5 REAL ESTATE SUITE</span>
+                <span class="video-thumb-sub">WATCH PLATFORM SALES AUTOMATION DEMO</span> -->
+              </div>
+              <!-- Play button overlay -->
+              <div class="play-btn">
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video Popup Modal -->
+      <div class="video-modal" id="videoModal">
+        <div class="video-box">
+          <button class="close-btn" id="closeVideo" aria-label="Close video">
+            <i class="fas fa-times"></i>
+          </button>
+          <!-- Local MP4 Video Player -->
+          <video id="localVideoPlayer" width="100%" height="100%" controls class="video-frame">
+            <source src="assets/videos/vanya-awas.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+
+      <!-- Testimonials grid alignment -->
+      <div class="row g-4 mt-4">
+        <div class="col-lg-4 fade-up">
+          <div class="testimonial-card">
+            <p>Lead Management System, Real Time Engagement are best for us. LMS help us to track the leads comes in for
+              us and to know how effectively the follow up is done by our sales team. Real Time Engagement app, gives us
+              quality leads.</p>
+            <div class="testi-author">
+              <div class="testi-avatar">RV</div>
+              <div>
+                <div class="testi-name">Rahim v</div>
+                <div class="testi-role">Exe-Online Marketing - Real Estate Enterprise</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 fade-up delay-100">
+          <div class="testimonial-card">
+            <p>The functionality of the system is extremely user friendly. Having the ability to create templates,
+              segment the database, send the emails and track the success is well set up. As a novice, I was able to
+              learn the system quickly. The Followup has been excellent.</p>
+            <div class="testi-author">
+              <div class="testi-avatar avatar-purple-navy">PS</div>
+              <div>
+                <div class="testi-name">David P</div>
+                <div class="testi-role">Owner</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 fade-up delay-200">
+          <div class="testimonial-card">
+            <p>I have been working closely with Plumb5 for couple of years now and they are always helpful, supportive
+              and easy to get in touch with. Your dedicated team always has wonderful ideas and is able to quantify your
+              efforts really well. I've enjoyed working with your team.</p>
+            <div class="testi-author">
+              <div class="testi-avatar avatar-gold">RK</div>
+              <div>
+                <div class="testi-name">Mr. Shiva Reddy</div>
+                <div class="testi-role">Certify Global</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════════════╗ -->
+  <!--   SECTION 8 — LEAD INBOUND FORM        -->
+  <!-- ╚══════════════════════════════════════╝ -->
+  <section class="form-section" id="lead-form">
+    <div class="container">
+      <div class="row align-items-center g-5">
+
+        <div class="col-lg-5 fade-up">
+          <div class="section-label">Book A Consultation</div>
+          <h2 class="section-title mb-3">Book Your Real Estate<br>Growth Consultation</h2>
+          <div class="gold-divider"></div>
+          <p class="form-intro-p">
+            Speak with a Plumb5 real estate specialist. In 30 minutes, we'll audit your current lead management process
+            and show you exactly where conversions are being lost.
+          </p>
+          <div class="d-flex flex-column gap-3">
+            <div class="d-flex align-items-start gap-3">
+              <div class="form-perk-icon">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div>
+                <div class="form-perk-title">Free Lead Audit</div>
+                <div class="form-perk-desc">We'll review your current lead flow and identify leakage points</div>
+              </div>
+            </div>
+            <div class="d-flex align-items-start gap-3">
+              <div class="form-perk-icon">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div>
+                <div class="form-perk-title">Platform Walkthrough</div>
+                <div class="form-perk-desc">See Plumb5 configured for your specific project type</div>
+              </div>
+            </div>
+            <div class="d-flex align-items-start gap-3">
+              <div class="form-perk-icon">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div>
+                <div class="form-perk-title">Custom Growth Roadmap</div>
+                <div class="form-perk-desc">Leave with a tailored 90-day conversion improvement plan</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-md-end">
+          <div class="form-placewrap">
+            <div id="dvPlumb5InPageScript3189" plumb5="Plumb5InPageForms" plumb5formidentifier="3189">
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- ╔══════════════════════════════════════╗ -->
+  <!--   SECTION 9 — FREQUENT QUESTIONS FAQ   -->
+  <!-- ╚══════════════════════════════════════╝ -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="text-center mb-5 fade-up">
+        <div class="section-label">FAQ</div>
+        <h2 class="section-title mb-3">Frequently Asked<br>Questions</h2>
+        <div class="gold-divider mx-auto"></div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8 fade-up">
+
+          <div class="faq-item active">
+            <button class="faq-question" onclick="toggleFaq(this)">
+              Can Plumb5 improve site visit conversions for my project?
+              <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-answer open">
+              Yes, absolutely. Plumb5 is specifically designed to improve the enquiry-to-site-visit conversion rate by
+              automating custom messaging follow-ups on optimal trigger parameters.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+              Can sales teams track buyer intent in real time?
+              <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-answer">
+              Yes. Plumb5 tracks every digital interaction a buyer has with your brand — website visits, brochure
+              downloads, floor plan views, pricing page engagement, and more. Each action feeds into a real-time intent
+              score visible to your sales team. Your reps see a ranked lead list updated throughout the day, so they
+              always know exactly who to prioritise their outreach toward. The mobile app brings this intelligence to
+              your sales team on the floor and on the go.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+              Does Plumb5 support WhatsApp automation for real estate follow-up?
+              <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-answer">
+              Yes — WhatsApp automation is a core capability of Plumb5. The platform integrates with WhatsApp Business
+              API to deploy personalised, behaviour-triggered message sequences. Buyers receive relevant project
+              updates, site visit reminders, brochure links, and re-engagement messages automatically. Message sequences
+              respect opt-in compliance, and all conversations are tracked back to lead records. Typical delivery rates
+              exceed 90% with open rates significantly above email.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+              How quickly can Plumb5 be set up for my real estate business?
+              <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-answer">
+              Most real estate teams are fully operational on Plumb5 within a day. The onboarding process includes lead
+              source integration, CRM data migration, WhatsApp automation setup, and sales team training. Our
+              implementation team has deep experience with Indian real estate workflows and integrates with common
+              portals like MagicBricks, 99acres, Housing.com, and your own website lead forms. Book a consultation to
+              get a tailored implementation timeline for your specific setup.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════════════╗ -->
+  <!--   SECTION 10 — END CTA ACTION & PANELS  -->
+  <!-- ╚══════════════════════════════════════╝ -->
+  <section class="final-cta">
+    <div class="container content text-center">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 fade-up">
+          <div class="section-label section-label-center">
+            <span></span>
+            Real Estate Sales Intelligence
+            <span></span>
+          </div>
+          <h2>Reduce Lead Leakage<br>and Improve <em>Property Sales</em><br>Conversions</h2>
+          <p class="final-cta-p">
+            Join India's leading real estate developers using Plumb5 to capture more site visits, close more deals, and
+            maximise every rupee of marketing spend.
+          </p>
+          <div class="d-flex justify-content-center flex-wrap gap-3">
+            <a href="#lead-form" class="btn-gold btn-gold-large">
+              <i class="fa-solid fa-calendar-check me-2"></i>
+              Book My Consultation
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Plumb5 Wordmark Footer Strip -->
+  <div class="footer-strip">
+    <div class="footer-logo">
+      <img src="assets/images/logo.png" alt="Company Logo" style="height: 40px; width: auto; opacity: 0.8;">
+    </div>
+    <p class="footer-copy">© 2026. All Rights Reserved by Decisive Analytical Systems Pvt. Ltd.</p>
+  </div>
+
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  <!-- Interactive script handling transitions & logic -->
+  <script src="/assets/main.js"></script>
+
+</body>
+
+</html>
